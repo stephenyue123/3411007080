@@ -13,14 +13,99 @@
             background-color: red;
             color:white
         }
+        /* 相對位置 */
+        #box2{
+            position:relative;
+            top:20px;
+            left:20px;
+            background-color: blue;
+        }
+        /* 絕對位置 */
+        #box3{
+            position:absolute;
+            top: 180px;
+            left:20px;
+            background-color: green;
+        }
+        /* 浮動 */
+        .title{
+            border:1px solid;
+            height: 150px;
+        }
+        .left{
+            float:left;
+            background-color: red;
+            width:50px;
+            height:150px;
+            
+        }
+        .right{
+            float:right;
+            background-color: blue;
+            width:50px;
+            height:150px;
+        }
+        /* z-index */
+        .img{
+            position: absolute;
+            top:0px;
+            left:0px;
+            z-index:-1;
+        }
+        .overflow{
+            border:1px solid;
+            height:100px;
+            width: 200px;
+            overflow:scroll;
+        }
+
     </style>
 
 </head>
 <body>
+    <!-- z-index-->
+    <div>
+        123
+        <img class="img" src="https://fakeimg.pl/100x100/">
+    </div>
+    <br><br><br>
+    <br><br><br>
     <div class="box" id="box1">box1</div>
     <div class="box" id="box2">box2</div>
     <div class="box" id="box3">box3</div>
     <div class="box" id="box4">box4</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="title">
+        <div class="left">left</div>
+        <div class="right">right</div>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum vero tempore magnam eveniet. Laboriosam, ratione voluptas sint modi vel, sapiente iure accusamus eius inventore voluptatem provident quis assumenda facere deserunt.
+            Harum optio dolores numquam atque excepturi consequatur enim ad eos voluptatibus nulla? Temporibus doloribus quis sed, ea fugit vel dicta earum. Quo recusandae repudiandae, fugit quos autem veniam minus corrupti?
+            Ipsa sit officia dolorem impedit voluptatum temporibus ea natus labore asperiores incidunt, quasi aut. Quos neque, ea aliquid a, saepe quis nulla exercitationem tempora natus at praesentium laudantium optio excepturi?
+            Ullam earum perferendis iusto vitae porro, doloremque mollitia sit quas voluptates sequi assumenda voluptatem sed dolores atque nihil, esse obcaecati ipsa delectus debitis pariatur, commodi ex neque repellendus eius. Placeat.
+        </p>
+            
+    </div>
+    <br>
+    <!--overflow-->
+    <div class="overflow">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit repellendus odit error voluptas, excepturi consequuntur repudiandae tempore qui. Id cum quis ullam perspiciatis! Libero magnam eligendi tempora maxime, laboriosam voluptate.
+Illum aliquam et accusamus nihil qui officia? Nulla eius labore saepe dolor quaerat sed quasi ex eos nostrum, quae dolore, dolorum molestias, vel consequuntur quam facere esse minus itaque vitae?
+At, sequi id quam nemo repellat nisi doloremque fugit, impedit amet veritatis repellendus quo. Vitae at sunt velit perferendis a ex labore! Commodi tempora debitis perferendis culpa necessitatibus veritatis. Est?
+Ipsam vero explicabo et voluptatum fugiat odit quaerat! Aliquid et nam explicabo quas, doloremque, quos cupiditate ratione cum dolorum iste unde! Unde facilis quas ducimus sit, suscipit qui nihil totam.
+Deserunt nesciunt repellendus doloribus perferendis vero non rerum! Ipsa consequatur cum tempora impedit totam qui obcaecati magnam eveniet, sunt nobis optio? Nihil quam iste quos exercitationem commodi perferendis consequatur temporibus!
+Eius nulla ducimus earum cum incidunt qui voluptatem eveniet, aspernatur nisi, quae vero quis fuga molestiae soluta nemo dolore. Sint dolores amet aut deleniti. Ullam obcaecati officia facilis nihil eius.
+Consequuntur voluptas minus aperiam amet? Magni asperiores exercitationem dolor ea dolorem, nulla soluta neque optio tenetur ducimus tempora, autem enim, iusto quam! Iusto, quos. Perferendis aut cum obcaecati quis unde!
+Ullam, laboriosam quod! Pariatur aperiam similique vitae delectus alias quis ratione debitis veritatis totam assumenda nisi sequi eos in dolor fuga molestias repellendus, fugit voluptate vero obcaecati optio voluptatem? Saepe?
+Accusantium officia quae nam. Ducimus possimus sapiente laudantium nostrum, assumenda in, tempora nam mollitia fuga, quis illo. Placeat, hic veritatis distinctio corporis numquam quos assumenda ea eveniet ipsa, excepturi porro.
+Consectetur vitae ut reprehenderit velit cupiditate modi, eos nesciunt odit ratione eligendi repellendus repellat qui quo dolores nostrum adipisci eveniet delectus doloremque fugit quas maxime illo debitis quisquam dicta! Quos?
+
+
+
+    </div>
 
 </body>
 </html>
